@@ -41,7 +41,7 @@ INSTALLED_APPS = [  # Add the blog app to the list of installed apps
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_summernote',
+    
     'blog', # Add the blog app to the list of installed apps
 ]
 
