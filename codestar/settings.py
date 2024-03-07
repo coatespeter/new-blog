@@ -34,13 +34,14 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'coates-new-blog-acd04e10d42a.herokua
 
 # Application definition
 
-INSTALLED_APPS = [
+INSTALLED_APPS = [  # Add the blog app to the list of installed apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_summernote',
     'blog', # Add the blog app to the list of installed apps
 ]
 
